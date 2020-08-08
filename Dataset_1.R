@@ -7,7 +7,7 @@ library(ggplot2)
 library(dplyr)
 library(vegan)
 
-ctout.lf <- list.files('~/folder_with_jpgs', full.names = T)
+ctout.lf <- list.files('~/Dataset1_OutlineJPEGS', full.names = T)
 CToutlines.xy <-import_jpg(ctout.lf)
 #factors
 laqueussp <- as.factor(c(rep("blanfordi",1), rep("erythraeus",16), rep("quadratus",2),
